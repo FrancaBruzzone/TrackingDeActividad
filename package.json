@@ -1,0 +1,18 @@
+{
+  "name": "trackingdeactividad",
+  "version": "1.0.0",
+  "description": "Sistema de tracking de actividad usando DynamoDB y Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1030.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
