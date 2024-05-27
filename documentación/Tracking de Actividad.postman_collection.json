@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "bebb50ad-afe0-4d65-822b-aacb5b93608d",
+		"name": "Tracking de Actividad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30022639",
+		"_collection_link": "https://universal-resonance-925496.postman.co/workspace/Team-Workspace~13c187bb-1216-45c0-8970-97cddd55cc1d/collection/30022639-bebb50ad-afe0-4d65-822b-aacb5b93608d?action=share&source=collection_link&creator=30022639"
+	},
+	"item": [
+		{
+			"name": "Insertar Actividad",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": \"user123\",\r\n    \"activity_type\": \"game_played\",\r\n    \"details\": {\r\n        \"game_id\": \"game456\",\r\n        \"duration\": 120\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/track",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"track"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Actividad",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
