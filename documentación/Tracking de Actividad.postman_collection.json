@@ -39,7 +39,25 @@
 			"name": "Obtener Actividad",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/activities/:user_id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"activities",
+						":user_id"
+					],
+					"variable": [
+						{
+							"key": "user_id",
+							"value": "user123"
+						}
+					]
+				}
 			},
 			"response": []
 		}
